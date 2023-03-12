@@ -82,6 +82,7 @@ body {
 #welcome-section p {
   font-style: italic;
   font-size: 3rem;
+  color: #be3144;
 }
 
 #projects {
@@ -197,9 +198,8 @@ a .project-title .code {
   transform: translateY(8px);
 }
 
-#app footer {
+footer {
   border-top: 4px solid var(--main-red);
-  height: 20vh;
   background-color: var(--main-gray);
   display: flex;
   align-items: center;
